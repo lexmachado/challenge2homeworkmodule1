@@ -1,0 +1,97 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+color: black; 
+overflow-x: hidden;
+
+    
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1 {font-size: 24px;
+padding: 0.5rem; 
+background-color: azure
+; color:dimgrey; 
+}
+nav { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    margin-right: 2rem;
+}
+nav a { 
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    margin-left: 1.5rem;
+    border-bottom: 4px solid dimgrey;
+    
+}
+main { 
+    margin: 0 auto;
+    max-width: 80%;
+}
+main section { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 1rem;
+    flex-wrap: wrap;
+
+}
+main section h2 { 
+    flex: 0 0 25%;
+    text-align: right;
+    padding-right: 1rem;
+    border-right: 4px solid dimgrey;
+    font-size: 20px;
+
+    
+}
+main section article { 
+    flex: 0 0 70%;
+
+}
+figure { 
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    background-color: blue;
+}
+figure img { 
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.8;
+}
+figcaption { 
+    position:absolute; 
+    bottom: 1rem;
+    left: 1rem;
+}
+figure img:hover { 
+    opacity: 1;
+    object-fit: scale-down;
+    cursor: crosshair;
+}
+h3 { font-size: 24px;
+    padding: 0.5rem;
+    
+}
+h4 {
+    font-size: 24px;
+    padding: 0.5rem;
+}
